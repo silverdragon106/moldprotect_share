@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PorBase">
+      <UniqueIdentifier>{182fe92d-2b60-4f2e-9fb5-a86deea56987}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_arithmetic.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_base.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_run_table.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_types.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h" />
+    <ClInclude Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_filter.h">
+      <Filter>PorBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\openvx\cuda\mv_nvx_image_proc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_arithmetic.cu">
+      <Filter>PorBase</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_run_table.cu">
+      <Filter>PorBase</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\PorVision\PorBase\base\performance\cuda_kernels\nvx_filter.cu">
+      <Filter>PorBase</Filter>
+    </None>
+    <None Include="..\source\openvx\cuda\mv_nvx_image_proc.cu" />
+  </ItemGroup>
+</Project>

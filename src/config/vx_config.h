@@ -1,0 +1,10 @@
+﻿#pragma once
+
+#define POVX_USE_ARITHMETIC		
+#define POVX_USE_FILTER
+//#define POVX_USE_THRESHOLD	
+//#define POVX_USE_CONNECT_COMPONENNTS
+//#define POVX_USE_CALIPER
+#define POVX_USE_RUNTABLE
+//#define POVX_USE_COLOR
+//#define POVX_USE_DRAW
